@@ -1,0 +1,278 @@
+@media all and (max-width: 600px){
+  .navbar {
+    clear: both;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .language {
+     position: absolute;
+     top: 0;
+     right: 0;
+   }
+   
+  .content {
+    padding: 1.5vw 5vw 2vw 5vw!important;
+  }
+
+  .content p {
+    font-size: 3vw!important;
+  }
+  
+  .content h1 {
+    font-size: 6vw!important;
+  }
+  
+  .CV p {
+  font-size: 3vw!important;
+  margin-left: 3vw;
+  }
+  
+  .CV h3 {
+  font-size: 5vw!important;
+  }
+
+  .sponsorLogo {
+    width: 85%;
+    height: auto;
+  }
+  
+  .sponsorTable td {
+    border-bottom: 1.2px solid #e62b1e!important;
+  }
+  
+  .footer table {
+    font-size: 3vw!important;
+  }
+  
+  .copyright p{
+    font-size: 10px !important;
+  }
+  
+}
+
+
+body {
+  background-image: -webkit-repeating-radial-gradient(center center, rgba(230,43,30,.2), rgba(230,43,30,.2) 1px, transparent 1px, transparent 100%);
+  background-image: -moz-repeating-radial-gradient(center center, rgba(230,43,30,.2), rgbargba(230,43,30,.2) 1px, transparent 1px, transparent 100%);
+  background-image: -ms-repeating-radial-gradient(center center, rgba(230,43,30,.2), rgba(230,43,30,.2) 1px, transparent 1px, transparent 100%);
+  background-image: repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(230,43,30,.2) 1px, transparent 1px, transparent 100%);
+  -webkit-background-size: 30px 30px;
+  -moz-background-size: 30px 30px;
+  background-size: 30px 30px;
+  
+  
+  margin: 0;
+  font-family: Helvetica;
+  min-height: 100%;
+}
+
+.TEDLogo {
+  width: 140px;
+  margin-right: 20px;
+  float: left;
+}
+
+.map {
+  width: 100%;
+  height: 55%;
+}
+
+.CV {
+  padding-bottom: 50px;
+}
+
+.Avatar {
+  float: left;
+  height: 85px;
+  width: 85px;
+  padding-left: 25px;
+  padding-right: 10px;
+}
+
+.personalContact {
+  float: right;
+}
+
+.navbar {
+  overflow: hidden;
+  font-family: Helvetica;
+  border-bottom: 1px solid #e62b1e;
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  margin-bottom: 1px;
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  background-color: rgba(255,255,255,.6);
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: 0;
+  color: black;
+  padding: 14px 16px;
+  background-color: rgba(255,255,255,.6);
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #e62b1e;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.sponsorTable {
+  width: 100%;
+}
+
+.sponsorTable td{
+  border-bottom: 3px solid #e62b1e;
+  padding-top: 2vw;
+  padding-bottom: 5vw;
+  text-align: center;
+}
+
+
+#sponsorHeader {
+  text-align: left!important;
+  margin: 0!important;
+  padding: 0!important;
+}
+
+.sponsorLogo {
+  width: auto;
+  height: 10vw;
+}
+
+.language {
+  float: right;
+  color: white !important;
+}
+
+.language a{
+  color: white;
+  background-color: #e62b1e;
+}
+
+a {
+  text-decoration: none;
+  color: #e62b1e;
+}
+
+a visited {
+  color: #e62b1e;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  clear: both;
+  width: 100%;
+  text-align: center;
+  border-top: 2px solid #e62b1e;
+  background-color: rgba(255,255,255,.6);
+}
+
+.footerHeader {
+  margin-bottom: 2vw;
+}
+
+.copyright{
+  width: 100%;
+  color: white;
+  background-color: black;
+}
+
+.copyright p {
+  margin: 0;
+  padding: 5;
+}
+
+.content {
+  padding: 25px 80px 75px 80px;
+  clear: both;
+  font-color: black;
+  background-color: rgba(255,255,255,.4);
+}
+
+  .content-centered {
+  margin:50px 50px 50px 50px;
+  clear: both;
+  font-color: black;
+  background-color: white;
+}
+
+.right_placed{
+  background-color: red;
+  width: 65%;
+  margin-bottom: 25px;
+  clear: both;
+  float: right;
+  text-align: left;
+  margin: 25px 25px 25px 25px;
+  color: white;
+  padding-left: 10px;
+}
+
+.left_placed{
+  background-color: red;
+  width: 65%;
+  margin-bottom: 25px;
+  clear: both;
+  float: left;
+  text-align: right;
+  margin: 25px 25px 25px 25px;
+  color: white;
+  padding-right: 10px;
+}
+
+.TalkerImg-Right{
+  width: 17%;
+  height: auto;
+  float: right;
+  margin: 10px 10px 10px 10px;
+}
+
+.TalkerImg-Left{
+  width:17%;
+  height: auto;
+  float: left;
+  margin: 10px 10px 10px 10px;
+}
