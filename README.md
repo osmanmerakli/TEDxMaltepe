@@ -1,5 +1,5 @@
 # TEDxMaltepe
-TEDxMaltepe Website
+non-profit TEDxMaltepe event's Website
 
 
 TEDxMaltepe is a non-profit official TED event.
